@@ -1,0 +1,29 @@
+{
+    "Header": "Options Menu",
+    "MenuItems": [
+        {
+            "Key": "Exit",
+            "Action": "Close"
+        },
+        {
+            "Key": "Change Colors",
+            "Action": "ChangeColors"
+        },
+        {
+            "Key": "Toggle ClearScreen",
+            "Action": "$Global:ClearScreen = -Not $Global:ClearScreen"
+        },
+        {
+            "Key": "Toggle SaveOnExit",
+            "Action": "$Global:SaveOnExit = -Not $Global:SaveOnExit"
+        },
+        {
+            "Key": "Toggle Interactive",
+            "Action": "$Global:Interactive = -Not $Global:Interactive"
+        },
+        {
+            "Key": "Back",
+            "Action": "Menu_Files\\MainMenu.json"
+        }
+    ]
+}

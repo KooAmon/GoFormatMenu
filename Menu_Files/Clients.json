@@ -1,0 +1,65 @@
+{
+    "Header": "Clients Menu",
+    "MenuItems": [
+        {
+            "Key": "Exit",
+            "Action": "Close"
+        },
+        {
+            "Key": "Atom",
+            "Action": "Start-Process C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -argumentlist '-ExecutionPolicy Bypass', '-noexit', 'D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Bootstrapper.ps1 -environment public -tool Atom -scriptsRoot D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Common'"
+        },
+        {
+            "Key": "AzDeployer",
+            "Action": "Start-Process C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -argumentlist '-ExecutionPolicy Bypass', '-noexit', 'D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Bootstrapper.ps1 -environment public -tool AzDeployer -scriptsRoot D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Common'"
+        },
+        {
+            "Key": "DSCM",
+            "Action": "Start-Process C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -argumentlist '-ExecutionPolicy Bypass', '-noexit', 'D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Bootstrapper.ps1 -environment public -tool DscmClient -scriptsRoot D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Common'"
+        },
+        {
+            "Key": "DSMS",
+            "Action": "Start-Process C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -argumentlist '-ExecutionPolicy Bypass', '-noexit', 'D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Bootstrapper.ps1 -environment public -tool DsmsClient -scriptsRoot D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Common'"
+        },
+        {
+            "Key": "DSTS",
+            "Action": "Start-Process C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -argumentlist '-ExecutionPolicy Bypass', '-noexit', 'D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Bootstrapper.ps1 -environment public -tool DstsClient -scriptsRoot D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Common'"
+        },
+        {
+            "Key": "Ev2",
+            "Action": "Start-Process C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -argumentlist '-ExecutionPolicy Bypass', '-noexit', 'D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Bootstrapper.ps1 -environment public -tool ev2 -scriptsRoot D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Common'"
+        },
+        {
+            "Key": "FCShell",
+            "Action": "Start-Process C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -argumentlist '-ExecutionPolicy Bypass', '-noexit', 'D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Bootstrapper.ps1 -environment public -tool FCShell -scriptsRoot D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Common'"
+        },
+        {
+            "Key": "GenevaActions",
+            "Action": "Start-Process C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -argumentlist '-ExecutionPolicy Bypass', '-noexit', 'D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Bootstrapper.ps1 -environment public -tool GenevaActions -scriptsRoot D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Common'"
+        },
+        {
+            "Key": "JITShell",
+            "Action": "Start-Process C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -argumentlist '-ExecutionPolicy Bypass', '-noexit', 'D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Bootstrapper.ps1 -environment public -tool JITShell -scriptsRoot D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Common'"
+        },
+        {
+            "Key": "OneAccess",
+            "Action": "Start-Process C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -argumentlist '-ExecutionPolicy Bypass', '-noexit', 'D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Bootstrapper.ps1 -environment public -tool OneAccess -scriptsRoot D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Common'"
+        },
+        {
+            "Key": "Wadi",
+            "Action": "Start-Process C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -argumentlist '-ExecutionPolicy Bypass', '-noexit', 'D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Bootstrapper.ps1 -environment public -tool Wadi -scriptsRoot D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Common'"
+        },
+        {
+            "Key": "XTS",
+            "Action": "Start-Process C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -argumentlist '-ExecutionPolicy Bypass', '-noexit', 'D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Bootstrapper.ps1 -environment public -tool XTS -scriptsRoot D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Common'"
+        },
+        {
+            "Key": "XTSViews",
+            "Action": "Start-Process C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -argumentlist '-ExecutionPolicy Bypass', '-noexit', 'D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Bootstrapper.ps1 -environment public -tool XTSViews -scriptsRoot D:\\Repos\\DCMT\\src\\Configuration\\AzureGold.ussec\\Scripts\\Common'"
+        },
+        {
+            "Key": "Back",
+            "Action": "Menu_Files\\MainMenu.json"
+        }
+    ]
+}

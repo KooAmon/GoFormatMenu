@@ -1,0 +1,39 @@
+{
+    "Header": "Applications Menu",
+    "Colors": {
+        "MenuBackground": "Grey",
+        "MenuForeground": "BrightWhite",
+        "BorderBackground": "BrightRed",
+        "BorderForeground": "Grey"
+    },
+    "MenuItems": [
+        {
+            "Key": "Exit",
+            "Action": "Close"
+        },
+        {
+            "Key": "Kusto",
+            "Action": "c:\\tools\\Kusto.appref-ms"
+        },
+        {
+            "Key": "XTS",
+            "Action": "c:\\tools\\xts.lnk"
+        },
+        {
+            "Key": "DevBox",
+            "Action": "mstsc -admin -v:desktop-6q26ipi -multimon"
+        },
+        {
+            "Key": "CodeFlow",
+            "Action": "C:\\Users\\ssternberg.NORTHAMERICA\\AppData\\Local\\cfLauncher\\BootCodeFlow.exe codeflow://create?host=vso"
+        },
+        {
+            "Key": "Azure Storage Explorer",
+            "Action": "C:\\Program Files (x86)\\Microsoft Azure Storage Explorer\\StorageExplorer.exe"
+        },
+        {
+            "Key": "Back",
+            "Action": "Menu_Files\\MainMenu.json"
+        }
+    ]
+}

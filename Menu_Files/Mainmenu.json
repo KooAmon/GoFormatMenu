@@ -1,0 +1,27 @@
+{
+    "Header": "Main Menu",
+    "Colors": {
+        "MenuBackground": "Black",
+        "MenuForeground": "Green",
+        "BorderBackground": "Green",
+        "BorderForeground": "Black"
+    },
+    "MenuItems": [
+        {
+            "Key": "Exit",
+            "Action": "Close"
+        },
+        {
+            "Key": "Launch Applications",
+            "Action": "Menu_Files\\ApplicationMenu.json"
+        },
+        {
+            "Key": "Clients",
+            "Action": "Menu_Files\\Clients.json"
+        },
+        {
+            "Key": "Options",
+            "Action": "Menu_Files\\OptionsMenu.json"
+        }
+    ]
+}
