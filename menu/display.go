@@ -3,6 +3,7 @@ package menu
 import (
 	"GoFormatMenu/models"
 	"GoFormatMenu/render"
+	"fmt"
 	"strconv"
 	"strings"
 )
@@ -40,7 +41,19 @@ func WriteMenu(menu *models.Menu) int {
 	}
 	writeBottomBorder()
 
-	return *ValidateUserInputIsInteger(len(menu.MenuItems))
+	userInput := 0
+	userInputIsValid := false
+
+	for !userInputIsValid {
+		fmt.Print("Select Item Index: ")
+		_, err := fmt.Scanf("%d", &userInput)
+
+		if ValidateUserInputIsNotAnError(err) && ValidateUserInputIsInteger(&userInput, len(menu.MenuItems)) {
+			break
+		}
+	}
+
+	return *&userInput
 }
 
 func writeHeader(header string, frontBuffer *int, backBuffer *int) {
